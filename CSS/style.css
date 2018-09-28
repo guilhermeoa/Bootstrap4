@@ -2,7 +2,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background: url(../IMG/background-clean.jpg) no-repeat center center fixed;
+    background-color: tomato;
+    background: url(../IMG/mountain.png) no-repeat center center fixed;
     background-size: cover;
 }
 .main-section{
@@ -39,8 +40,35 @@ body{
     padding-left:  54px;
 }
 .form-group::before{
-    font-family: 'Font Awesone\ 5 Free';
+    font-family: 'Font Awesome\ 5 Free';
     content: "\f1fa";
     position: absolute;
     font-size: 22px;
+    left: 22px;
+    padding-top: 4px;
+    color: #434e5a;
+}
+.form-group:last-of-type::before{
+    content: "\f023";
+}
+.form-input button{
+    width: 60%;
+    margin: 5px 0 20px;
+}
+.btn-success{
+    background-color: #1c6288;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 7px 14px;
+    border: 1px solid #daf1ff;
+}
+.btn-success:hover{
+    background-color: #13445e;
+    border: 1px solid #daf1ff;
+}
+.forgot {
+    padding: 5px 0 25px;
+}
+.forgot a{
+    color: #daf1ff;
 }
